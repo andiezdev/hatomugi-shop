@@ -1,0 +1,670 @@
+.ng-nhp-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 50px;
+}
+.ng-nhp-item {
+  position: absolute;
+  top: 178px;
+  left: -1px;
+  border-radius: 1px;
+  width: 1441px;
+  height: 90px;
+}
+.tin-tc-s {
+  position: absolute;
+  top: 213px;
+  left: 1161px;
+  cursor: pointer;
+}
+.gii-thiu,
+.i-tc-bn {
+  position: absolute;
+  top: 213px;
+  left: 761px;
+}
+.gii-thiu {
+  left: 562px;
+  display: inline-block;
+  width: 116px;
+  height: 34px;
+  cursor: pointer;
+}
+.hatomugivietnam-phn {
+  position: absolute;
+  top: 15px;
+  left: 425px;
+  font-size: var(--font-size-xl);
+  color: var(--a);
+}
+.ng-nhp-inner {
+  position: absolute;
+  top: 56px;
+  left: 135px;
+  background-color: var(--color-white);
+  width: 370px;
+  height: 120px;
+}
+.rectangle-div,
+.rectangle-icon {
+  position: absolute;
+  top: 57px;
+  left: 535px;
+  width: 370px;
+  height: 120px;
+}
+.rectangle-div {
+  top: 178px;
+  left: 135px;
+  background-color: var(--color-darkslateblue-100);
+  width: 185px;
+  height: 90px;
+}
+.house-solid-1-icon {
+  position: absolute;
+  top: 217px;
+  left: 170px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.sn-phm {
+  position: absolute;
+  top: 213px;
+  left: 359px;
+  display: inline-block;
+  width: 116px;
+  height: 33px;
+}
+.ng-nhp-child1 {
+  position: absolute;
+  top: 57px;
+  left: 935px;
+  background-color: var(--color-white);
+  width: 170px;
+  height: 120px;
+}
+.ng-kng-nhp {
+  position: absolute;
+  top: 57px;
+  left: 0;
+}
+.circle-user-solid-1-icon {
+  position: absolute;
+  top: 0;
+  left: 42px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.ng-kng-nhp-parent {
+  position: absolute;
+  top: 81px;
+  left: 953px;
+  width: 134px;
+  height: 75px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.ng-nhp-child2 {
+  position: absolute;
+  top: 94px;
+  left: 565px;
+  border-radius: 40px;
+  background-color: var(--color-white);
+  border: 1px solid #0f95ce;
+  box-sizing: border-box;
+  width: 310px;
+  height: 40px;
+}
+.tm-kim {
+  position: absolute;
+  top: 104px;
+  left: 611px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.magnifying-glass-solid-1-icon {
+  position: absolute;
+  top: 101px;
+  left: 574px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+.hatomugi,
+.viet-nam {
+  position: absolute;
+  font-family: var(--font-inria-serif);
+  color: var(--a);
+}
+.hatomugi {
+  top: 65px;
+  left: 208px;
+  font-size: 40px;
+  display: inline-block;
+  width: 224px;
+}
+.viet-nam {
+  top: 113px;
+  left: 241px;
+  font-size: var(--font-size-13xl);
+}
+.trang-ch {
+  position: absolute;
+  top: 213px;
+  left: 182px;
+}
+.line-div,
+.ng-nhp-child3,
+.ng-nhp-child4,
+.ng-nhp-child5,
+.ng-nhp-child6 {
+  position: absolute;
+  top: 175.5px;
+  left: 319.5px;
+  border-right: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1px;
+  height: 94px;
+}
+.ng-nhp-child3,
+.ng-nhp-child4,
+.ng-nhp-child5,
+.ng-nhp-child6 {
+  left: 519.5px;
+}
+.ng-nhp-child4,
+.ng-nhp-child5,
+.ng-nhp-child6 {
+  top: 174.5px;
+  left: 719.5px;
+  height: 95px;
+}
+.ng-nhp-child5,
+.ng-nhp-child6 {
+  top: 176.5px;
+  left: 919.5px;
+  height: 93px;
+}
+.ng-nhp-child6 {
+  top: 175.5px;
+  left: 1118.5px;
+  height: 94px;
+}
+.cm-nang-kin {
+  position: absolute;
+  top: 213px;
+  left: 914px;
+  display: inline-block;
+  width: 211px;
+  cursor: pointer;
+}
+.ng-nhp-child7 {
+  position: absolute;
+  top: 49.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.ng-nhp-child8 {
+  position: absolute;
+  top: 56px;
+  left: 1135px;
+  background-color: var(--color-white);
+  width: 170px;
+  height: 120px;
+}
+.gi-hng {
+  position: absolute;
+  top: 138px;
+  left: 1185px;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.cart-shopping-solid-2-icon {
+  position: absolute;
+  top: 81px;
+  left: 1185px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.line-icon {
+  position: absolute;
+  top: 317px;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  object-fit: contain;
+}
+.angles-right-solid-2-icon {
+  position: absolute;
+  top: 285px;
+  left: 246px;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+.ng-nhp-ti,
+.trang-ch1 {
+  position: absolute;
+  top: 277px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  height: 22px;
+}
+.trang-ch1 {
+  left: 134px;
+  color: var(--color-black);
+  width: 111px;
+}
+.ng-nhp-ti {
+  left: 255px;
+  color: rgba(44, 44, 104, 0.93);
+  width: 189px;
+}
+.ng-nhp-child9 {
+  position: absolute;
+  top: 354px;
+  left: 135px;
+  background-color: var(--color-white);
+  width: 570px;
+  height: 450px;
+}
+.email,
+.mt-khu,
+.ng-nhp-ti1 {
+  position: absolute;
+  top: 244px;
+  left: 70px;
+}
+.email,
+.ng-nhp-ti1 {
+  top: 134px;
+}
+.ng-nhp-ti1 {
+  top: 63px;
+  left: 68px;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  position: absolute;
+  top: 173px;
+  left: 70px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 400px;
+  height: 32px;
+}
+.frame-inner,
+.frame-item {
+  top: 283px;
+  left: 68px;
+}
+.ĐĂNG-NHẬP,
+.frame-inner {
+  top: 350px;
+  left: 70px;
+  background-color: var(--color-darkslateblue-100);
+  border: 1px solid var(--color-darkslateblue-100);
+  width: 200px;
+  height: 63px;
+  border-radius: var(--br-11xl);
+  cursor: pointer;
+  text-align: left;
+  color: var(--color-white);
+  text-align: center;
+}
+.ng-nhp1 {
+  position: absolute;
+  top: 370px;
+  left: 134px;
+  color: var(--color-white);
+  text-align: left;
+}
+.lock-open-solid-1-icon {
+  position: absolute;
+  top: 362px;
+  left: 89px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.frame-child1,
+.mt-khu-parent {
+  position: absolute;
+  background-color: var(--color-white);
+  width: 570px;
+}
+.mt-khu-parent {
+  top: 355px;
+  left: 135px;
+  height: 449px;
+  overflow: hidden;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.frame-child1 {
+  top: 3px;
+  left: 0;
+  height: 450px;
+}
+.ng-k-ti,
+.to-ti-khon {
+  position: absolute;
+  left: 70px;
+}
+.ng-k-ti {
+  top: 138px;
+  display: inline-block;
+  width: 500px;
+}
+.to-ti-khon {
+  top: 66px;
+  text-align: center;
+}
+.frame-child2 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslateblue-100);
+  width: 200px;
+  height: 59px;
+}
+.user-solid-1-icon {
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.rectangle-group,
+.to-ti-khon1 {
+  position: absolute;
+  top: 20px;
+  left: 52px;
+}
+.rectangle-group {
+  top: 256px;
+  left: 70px;
+  width: 200px;
+  height: 63px;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.rectangle-parent {
+  position: absolute;
+  top: 350px;
+  left: 735px;
+  width: 570px;
+  height: 451px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.hatomugi1,
+.viet-nam1 {
+  position: absolute;
+  display: inline-block;
+  font-family: var(--font-inria-serif);
+  text-align: center;
+}
+.hatomugi1 {
+  top: 275px;
+  left: 5px;
+  font-size: 64px;
+  width: 413px;
+  height: 76px;
+}
+.viet-nam1 {
+  top: 351px;
+  left: 51px;
+  font-size: 48px;
+  width: 321px;
+}
+.frame-child3,
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 418px;
+  background-color: var(--color-darkslateblue-100);
+  width: 428px;
+  height: 327px;
+}
+.frame-child4,
+.frame-child5,
+.frame-child6 {
+  top: 363px;
+}
+.frame-child5,
+.frame-child6 {
+  left: 919px;
+}
+.frame-child6 {
+  top: 0;
+}
+.v-chng-ti {
+  position: absolute;
+  top: 29px;
+  left: 436px;
+  font-size: var(--font-size-xl);
+}
+.b,
+.phone-solid-1-icon {
+  position: absolute;
+  top: 85px;
+  left: 467px;
+}
+.phone-solid-1-icon {
+  left: 436px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.hatomugivietnamgmaicom {
+  position: absolute;
+  top: 129px;
+  left: 467px;
+}
+.envelope-open-text-solid-1-icon,
+.location-dot-solid-1-icon,
+.warehouse-solid-1-icon {
+  position: absolute;
+  top: 129px;
+  left: 436px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.location-dot-solid-1-icon,
+.warehouse-solid-1-icon {
+  top: 261px;
+}
+.location-dot-solid-1-icon {
+  top: 217px;
+}
+.globe-solid-1-icon,
+.hatomugivietnamcom {
+  position: absolute;
+  top: 173px;
+  left: 465px;
+}
+.globe-solid-1-icon {
+  left: 436px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ng-ngc-bc,
+.tower-s-147 {
+  position: absolute;
+  top: 217px;
+  left: 467px;
+}
+.ng-ngc-bc {
+  top: 261px;
+  display: inline-block;
+  width: 230px;
+}
+.chnh-sch {
+  position: absolute;
+  top: 29px;
+  left: 978px;
+  font-size: var(--font-size-xl);
+}
+.chnh-sch-bo,
+.chnh-sch-giao,
+.chnh-sch-i {
+  position: absolute;
+  top: 77px;
+  left: 976px;
+}
+.chnh-sch-bo,
+.chnh-sch-giao {
+  top: 122px;
+}
+.chnh-sch-bo {
+  top: 167px;
+}
+.chnh-sch-i1,
+.chnh-sch-mua,
+.ng-k-theo {
+  position: absolute;
+  top: 212px;
+  left: 977px;
+}
+.chnh-sch-i1,
+.ng-k-theo {
+  top: 257px;
+}
+.ng-k-theo {
+  top: 409px;
+  left: 436px;
+  font-size: var(--font-size-xl);
+}
+.vector-icon,
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  position: absolute;
+  height: 7.16%;
+  width: 3.47%;
+  top: 69.33%;
+  right: 52.36%;
+  bottom: 23.51%;
+  left: 44.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3 {
+  top: 68.9%;
+  right: 66.18%;
+  bottom: 23.94%;
+  left: 30.35%;
+}
+.vector-icon2,
+.vector-icon3 {
+  top: 69.33%;
+  right: 45.42%;
+  bottom: 23.51%;
+  left: 51.11%;
+}
+.vector-icon3 {
+  right: 59.31%;
+  left: 37.22%;
+}
+.h-tr-thanh {
+  position: absolute;
+  top: 409px;
+  left: 976px;
+  font-size: var(--font-size-xl);
+}
+.frame-child10,
+.frame-child11,
+.frame-child7,
+.frame-child8,
+.frame-child9 {
+  position: absolute;
+  top: 486px;
+  left: 976px;
+  width: 70px;
+  height: 44px;
+  object-fit: cover;
+}
+.frame-child10,
+.frame-child11,
+.frame-child8,
+.frame-child9 {
+  left: 1046px;
+}
+.frame-child10,
+.frame-child11,
+.frame-child9 {
+  left: 1116px;
+}
+.frame-child10,
+.frame-child11 {
+  left: 1186px;
+}
+.frame-child11 {
+  left: 1256px;
+}
+.frame-child12 {
+  position: absolute;
+  top: 631.5px;
+  left: -0.5px;
+  border-top: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1px;
+}
+.sapo {
+  color: #acddfb;
+}
+.hatomugi-parent,
+.hatomugiofficial-cung-cp-b-container {
+  position: absolute;
+  top: 640px;
+  left: 462px;
+  font-size: var(--font-size-13xl);
+}
+.hatomugi-parent {
+  top: 851px;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  width: 1440px;
+  height: 690px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.ng-nhp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1541px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-judson);
+}

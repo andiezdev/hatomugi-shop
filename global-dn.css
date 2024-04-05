@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-judson: Judson;
+  --font-inria-serif: "Inria Serif";
+
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslateblue-100: #2c2c68;
+  --color-black: #000;
+  --a: #00197e;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+}
