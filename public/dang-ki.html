@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Firebase_form</title>
+    <link rel="stylesheet" href="./global-dk.css" />
+    <link rel="stylesheet" href="./dang-ki.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="ng-k">
+      <div class="rectangle-parent">
+        <div class="frame-child"></div>
+        <b class="hatomugivietnam-phn"
+          >Hatomugivietnam - phân phối chính ngạch các sản phẩm Nhật Bản</b
+        >
+        <div class="frame-item"></div>
+        <img class="frame-inner" alt="" src="./public/rectangle-7.svg" />
+
+        <div class="rectangle-div"></div>
+        <div class="ng-kng-nhp" id="ngKngNhp">
+          <div class="ng-kng-nhp1"> <a style="text-decoration: none; color: #000;" href="dang-ki.html">Đăng ký</a>/<a style="text-decoration: none; color: #000;" href="dang-nhap.html"
+            >Đăng nhập</a
+          ></div>
+          <img
+            class="circle-user-solid-1-icon"
+            alt=""
+            src="./public/circleusersolid-1.svg"
+          />
+        </div>
+        <div class="frame-child1"></div>
+        <div class="tm-kim">Tìm kiếm ...</div>
+        <img
+          class="magnifying-glass-solid-1-icon"
+          alt=""
+          src="./public/magnifyingglasssolid-1.svg"
+        />
+
+        <b class="hatomugi">HATOMUGI</b>
+        <b class="viet-nam">VIET NAM</b>
+        <div class="line-div"></div>
+        <div class="frame-child2"></div>
+        <div class="gi-hng">Giỏ hàng</div>
+        <img
+          class="cart-shopping-solid-2-icon"
+          alt=""
+          src="./public/cartshoppingsolid-2.svg"
+        />
+      </div>
+      <img class="ng-k-child" alt="" src="./public/rectangle-8.svg" />
+
+      <b class="tin-tc-s" id="tINTCS"><a style="text-decoration: none; color: #fff;" href="tin-tuc-su-kien.html">TIN TỨC SỰ KIỆN</a> </b>
+      <div class="i-tc-bn">ĐỐI TÁC BÁN LẺ</div>
+      <b class="gii-thiu" id="gIITHIUText"><a  style="text-decoration: none; color: #fff" href="gioi-thieu.html">GIỚI THIỆU</a></b>
+      <b class="sn-phm"><a  style="text-decoration: none; color: #fff" href="san-pham.html">SẢN PHẨM</a> </b>
+      <div class="ng-k-item"></div>
+      <img class="house-solid-1-icon" alt="" src="./public/housesolid-1.svg" />
+
+      <b class="trang-ch"><a  style="text-decoration: none; color: #fff" href="trang-chu.html"> TRANG CHỦ</a> </b>
+      <div class="ng-k-inner"></div>
+      <div class="ng-k-child1"></div>
+      <div class="ng-k-child2"></div>
+      <div class="ng-k-child3"></div>
+      <div class="ng-k-child4"></div>
+      <b class="cm-nang-kin" id="cMNANGKIN"><a  style="text-decoration: none; color: #fff"href="cam-nang-lam-dep.html">CẨM NANG KIẾN THỨC</a></b>
+      <img
+        class="angles-right-solid-2-icon"
+        alt=""
+        src="./public/anglesrightsolid-2.svg"
+      />
+
+      <div class="trang-ch1">Trang chủ</div>
+      <i class="ng-k-ti">Đăng ký tài khoản</i>
+      <img class="line-icon" alt="" />
+
+      <div class="rectangle-group">
+        <div class="frame-child3"></div>
+        <div class="h">Họ:</div>
+        <div class="email">Email:</div>
+        <div class="frame-child4"></div>
+        <b class="ng-k-ti1">ĐĂNG KÝ TÀI KHOẢN</b>
+       
+         
+        <div class="frame-child5">
+          <input type="text" value="" id="ho" required>
+        </div>
+        <div class="frame-child6">
+          <input type="email" value="" id="email" required>
+        </div>
+        <div class="frame-child7">
+          <input type="text" value="" id="ten" required>
+        </div>
+        <div class="frame-child8">
+          <input type="text" value="" id="matkhau" required>
+        </div>
+        
+        <input type="ĐĂNG KÝ" value="ĐĂNG KÝ" class="ng-nhp-child" id="ĐĂNG KÝ">
+        
+        
+        <script type="module">
+          // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+  import { getDatabase,ref,set,get,child } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-database.js";
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAA_c7HkI5q3-xeoBdKirCVKWJzkGP6sWI",
+    authDomain: "dagky-87c7e.firebaseapp.com",
+    projectId: "dagky-87c7e",
+    storageBucket: "dagky-87c7e.appspot.com",
+    messagingSenderId: "554099688566",
+    appId: "1:554099688566:web:0e41cdf350bc860ae98b57"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+
+  //get ref to database services
+  const db = getDatabase(app);
+
+  document.getElementById("ĐĂNG KÝ").addEventListener('click', function(e){
+   e.preventDefault();
+   set(ref(db, 'user/' + document.getElementById("ho").value),
+   {
+
+     ho: document.getElementById("ho").value,
+     email: document.getElementById("email").value,
+     MatKhau: document.getElementById("matkhau").value,
+     Ten: document.getElementById("ten").value
+
+   });
+   alert("dang ky thanh cong  !");
+})
+        </script>
+        </div>
+        
+        <div class="tn">Tên:</div>
+        <div class="mt-khu">Mật khẩu:</div>
+        <div class="ng-k1" id="ngK">
+          
+         
+          
+        </div>
+        
+      </div>
+      <div class="hatomugi-parent">
+        <b class="hatomugi1">HATOMUGI</b>
+        <b class="viet-nam1">VIET NAM</b>
+        <div class="frame-child9"></div>
+        <div class="frame-child10"></div>
+        <div class="frame-child11"></div>
+        <b class="v-chng-ti">VỀ CHÚNG TÔI</b>
+        <b class="b">0843.555.677</b>
+        <img
+          class="phone-solid-1-icon"
+          alt=""
+          src="./public/phonesolid-1.svg"
+        />
+
+        <b class="hatomugivietnamgmaicom">Hatomugivietnam@gmai.com</b>
+        <img
+          class="envelope-open-text-solid-1-icon"
+          alt=""
+          src="./public/envelopeopentextsolid-1.svg"
+        />
+
+        <img
+          class="warehouse-solid-1-icon"
+          alt=""
+          src="./public/warehousesolid-1.svg"
+        />
+
+        <img
+          class="location-dot-solid-1-icon"
+          alt=""
+          src="./public/locationdotsolid-1.svg"
+        />
+
+        <b class="hatomugivietnamcom">HATOMUGIVIETNAM.COM</b>
+        <img
+          class="globe-solid-1-icon"
+          alt=""
+          src="./public/globesolid-1.svg"
+        />
+
+        <b class="tower-s-147"
+          >789 Tower, số 147 Hoàng Quốc Việt, Cầu Giấy, Hà Nội</b
+        >
+        <b class="ng-ngc-bc">Đông Ngạc, Bắc Từ Liêm, Hà Nội</b>
+        <b class="chnh-sch">CHÍNH SÁCH </b>
+        <b class="chnh-sch-i">Chính sách đổi trả</b>
+        <b class="chnh-sch-giao">Chính sách giao hàng</b>
+        <b class="chnh-sch-bo">Chính sách bảo hành</b>
+        <b class="chnh-sch-mua">Chính sách mua hàng</b>
+        <b class="chnh-sch-i1">Chính sách Đại lý,Cộng tác viên</b>
+        <b class="h-tr-thanh">HỖ TRỢ THANH TOÁN</b>
+        <img class="rectangle-icon" alt="" src="./public/rectangle-96@2x.png" />
+
+        <img class="frame-child12" alt="" src="./public/rectangle-97@2x.png" />
+
+        <img class="frame-child13" alt="" src="./public/rectangle-98@2x.png" />
+
+        <img class="frame-child14" alt="" src="./public/rectangle-99@2x.png" />
+
+        <img class="frame-child15" alt="" src="./public/rectangle-100@2x.png" />
+
+        <b class="hatomugiofficial-cung-cp-b-container">
+          <span>HatomugiOfficial | Cung cấp bởi </span>
+          <span class="sapo">Sapo</span>
+        </b>
+        <div class="frame-child16"></div>
+        <b class="ng-k-theo">ĐĂNG KÝ THEO DÕI</b>
+        <img
+          class="square-facebook-1-icon"
+          alt=""
+          src="./public/squarefacebook-1.svg"
+        />
+
+        <img
+          class="square-twitter-1-icon"
+          alt=""
+          src="./public/squaretwitter-1.svg"
+        />
+
+        <img
+          class="square-instagram-1-icon"
+          alt=""
+          src="./public/squareinstagram-1.svg"
+        />
+
+        <img
+          class="square-google-plus-1-icon"
+          alt=""
+          src="./public/squaregoogleplus-1.svg"
+        />
+      </div>
+    </div>
+
+    <script>
+      var ngKngNhp = document.getElementById("ngKngNhp");
+      if (ngKngNhp) {
+        ngKngNhp.addEventListener("click", function (e) {
+          // Please sync "đăng nhập " to the project
+        });
+      }
+      
+      var tINTCS = document.getElementById("tINTCS");
+      if (tINTCS) {
+        tINTCS.addEventListener("click", function (e) {
+          // Please sync "Tin tức sự kiện 1" to the project
+        });
+      }
+      
+      var gIITHIUText = document.getElementById("gIITHIUText");
+      if (gIITHIUText) {
+        gIITHIUText.addEventListener("click", function (e) {
+          // Please sync "Giới thiệu" to the project
+        });
+      }
+      
+      var cMNANGKIN = document.getElementById("cMNANGKIN");
+      if (cMNANGKIN) {
+        cMNANGKIN.addEventListener("click", function (e) {
+          // Please sync "Cẩm nang làm đẹp" to the project
+        });
+      }
+      
+      var ngK = document.getElementById("ngK");
+      if (ngK) {
+        ngK.addEventListener("click", function (e) {
+          // Please sync "đăng nhập " to the project
+        });
+      }
+      
+      var ngNhp = document.getElementById("ngNhp");
+      if (ngNhp) {
+        ngNhp.addEventListener("click", function (e) {
+          // Please sync "đăng nhập " to the project
+        });
+      }
+      </script>
+  </body>
+</html>
